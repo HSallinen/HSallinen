@@ -4,7 +4,7 @@
 Interface TypescriptProgrammer {
   skillLevel: "beginner" | "intermediate" | "advanced" | "professional"
   timeUsed: Number
-  usedFor: Array[String]
+  usedFor: Array<String>
 }
 
 Hsalline: TypescriptProgrammer = {
