@@ -1,6 +1,19 @@
 # Technologies
+## Javascript/Typescript
+```js
+Interface TypescriptProgrammer {
+  skillLevel: "beginner" | "intermediate" | "advanced" | "professional"
+  timeUsed: Number
+  usedFor: Array[String]
+}
+
+Hsalline: TypescriptProgrammer = {
+
+}
+```
+
 ## Python
-```python
+```py
 class python_programmer:
   def __init__(self, skill_level, usage_time, use_cases):
     self.skill_level = skill_level
