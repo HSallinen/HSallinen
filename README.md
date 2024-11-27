@@ -28,10 +28,17 @@ Hsallinen = python_programmer(
   ["web scraping", "game development", "backend development", "competitive programming"] # Used for
 )
 ```
-## Css
+## CSS/html
+```html
+<div id="Hsallinen">
+  <skill class="css" />
+  <skill class="html" />
+</div>
+```
 ```css
-#Hsallinen > .css {
+#Hsallinen > skill.css, skill.html {
   skill-level: intermediate;
   time-used: 2 years;
 }
 ```
+
