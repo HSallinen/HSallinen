@@ -7,7 +7,7 @@ Interface TypescriptProgrammer {
   usedFor: Array<String>
 }
 
-Hsalline: TypescriptProgrammer = {
+Hsallinen: TypescriptProgrammer = {
   skillLevel: "intermediate"
   timeUsed: 1 // Years
   usedFor: ["frontend development", "backend development"]
@@ -27,4 +27,11 @@ Hsallinen = python_programmer(
   "4, # Years. Time used
   ["web scraping", "game development", "backend development", "competitive programming"] # Used for
 )
+```
+## Css
+```css
+#Hsallinen > .css {
+  skill-level: intermediate;
+  time-used: 2 years;
+}
 ```
