@@ -23,6 +23,6 @@ class python_programmer:
 Hsallinen = python_programmer(
   "intermediate", # Skill level
   "4 years", # Time used
-  ["web scraping", "game developement", "backend development", "competetive programming"] # Used for
+  ["web scraping", "game development", "backend development", "competitive programming"] # Used for
 )
 ```
