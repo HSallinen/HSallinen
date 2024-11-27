@@ -8,7 +8,9 @@ Interface TypescriptProgrammer {
 }
 
 Hsalline: TypescriptProgrammer = {
-
+  skillLevel: "intermediate"
+  timeUsed: 1 // Years
+  usedFor: ["frontend development", "backend development"]
 }
 ```
 
@@ -22,7 +24,7 @@ class python_programmer:
 
 Hsallinen = python_programmer(
   "intermediate", # Skill level
-  "4 years", # Time used
+  "4, # Years. Time used
   ["web scraping", "game development", "backend development", "competitive programming"] # Used for
 )
 ```
